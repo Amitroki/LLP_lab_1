@@ -2,10 +2,12 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-int cnt = 100;
 int buffer[100];
 
 void main() {
+	int cnt;
+	printf("\tPlese, enter the count of elements in your array: ");
+	scanf("%d", &cnt);
 	int k = 0;
 	int digit;
 	printf("\tPlease, enter your array separated by a space: ");
