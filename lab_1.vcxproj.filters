@@ -19,7 +19,7 @@
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
     <ClCompile Include="c_simplified_sorting.c">
-      <Filter>Файлы ресурсов</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
