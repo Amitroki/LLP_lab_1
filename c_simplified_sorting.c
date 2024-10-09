@@ -11,7 +11,7 @@ void main() {
     int digit;
     printf("\tPlease, enter your array separated by a space: ");
 input_array:
-    if (i >= cnt) {
+    if (i == cnt) {
         goto end_input;
     }
     scanf("%d", &digit);
